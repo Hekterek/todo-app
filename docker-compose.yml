@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+    app:
+        build: .
+        ports:
+            - "8080:8080"
+        environment:
+            DATABASE_HOST: mysql
+            DATABASE_PORT: 3306
+            DATABASE_NAME: todo
+            DATABASE_USERNAME: root
+            DATABASE_PASSWORD:
+        networks:
+            - my-network
+        depends_on:
+            mysql:
+                condition: service_healthy
+
+    mysql:
+        image: mysql:9
+        ports:
+            - "3310:3306"
+        environment:
+            MYSQL_DATABASE: todo
+            MYSQL_ROOT_PASSWORD:
+            MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+        networks:
+          - my-network
+        healthcheck:
+          test: [ "CMD", "mysqladmin", "ping", "-h", "127.0.0.1" ]
+          interval: 5s
+          retries: 5
+          timeout: 5s
+
+networks:
+  my-network:
+    driver: bridge
