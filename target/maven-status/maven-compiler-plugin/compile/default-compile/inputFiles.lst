@@ -1,0 +1,17 @@
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\config\CustomUserDetailsService.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\config\JwtFilter.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\config\JwtService.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\config\SecurityConfig.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\constants\ApplicationConstants.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\task\dto\TaskDto.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\task\Task.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\task\TaskController.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\task\TaskRepo.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\task\TaskService.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\user\dto\LoginRequestDTO.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\user\dto\UserDto.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\user\UserController.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\user\UserEntity.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\user\UserRepo.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\entity\user\UserService.java
+C:\Users\hekter\Desktop\todoBackend\src\main\java\com\karol\todo\TodoApplication.java
