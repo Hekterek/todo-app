@@ -42,6 +42,11 @@ public class UserController {
     private final UserRepo userRepository;
     private final JwtService jwtService;
 
+    @GetMapping("/test")
+    public ResponseEntity<String> testConnection() {
+        return ResponseEntity.ok("Serwer dziala poprawnie !");
+    }
+
     @PostMapping("/register")
     public UserEntity register(@RequestBody UserEntity user) {
         return userService.registerNewUser(user);
